@@ -19,6 +19,10 @@ public class PetStoreEmployee {
 	private String employeeJobTitle;
 	
 	public PetStoreEmployee(Employee employee){
-		
+		employeeId = employee.getEmployeeId();
+		employeeFirstName = employee.getEmployeeFirstName();
+		employeeLastName = employee.getEmployeeLastName();
+		employeePhone = employee.getEmployeePhone();
+		employeeJobTitle = employee.getEmployeeJobTitle();
 	}
 }
